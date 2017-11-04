@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Argus">
+    <output-path>$PROJECT_DIR$/Servers/Bukkit/plugins</output-path>
+    <root id="archive" name="Argus.jar">
+      <element id="module-output" name="Core" />
+      <element id="module-output" name="Engine" />
+      <element id="module-output" name="Games" />
+    </root>
+  </artifact>
+</component>

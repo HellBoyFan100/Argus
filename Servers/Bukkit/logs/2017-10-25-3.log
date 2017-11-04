@@ -1,0 +1,75 @@
+[19:22:54] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[19:22:54] [Server thread/INFO]: Loading properties
+[19:22:54] [Server thread/INFO]: Default game type: SURVIVAL
+[19:22:54] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-93e20b3-b8f84f3 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[19:22:54] [Server thread/INFO]: Debug logging is disabled
+[19:22:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:22:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:22:54] [Server thread/INFO]: Generating keypair
+[19:22:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:22:54] [Server thread/INFO]: Using default channel type
+[19:22:54] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:22:55] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v17.10.16-7a4b7be-936-17.0.19
+[19:22:55] [Server thread/INFO]: [Argus] Loading Argus v0.1
+[19:22:55] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7-SNAPSHOT;3677-000c238
+[19:22:55] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v17.10.16-7a4b7be-936-17.0.19
+[19:22:55] [Server thread/INFO]: Vault is used for persistent `/wea` toggles.
+[19:22:55] [Server thread/INFO]: ====== USE PAPER ======
+[19:22:55] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/
+[19:22:55] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/
+[19:22:55] [Server thread/INFO]:  - This is only a recommendation
+[19:22:55] [Server thread/INFO]: ==============================
+[19:22:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:22:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:22:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:22:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:22:55] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:22:55] [Server thread/INFO]: Preparing level "world"
+[19:22:56] [Server thread/INFO]: Preparing start region for level 0 (Seed: 9179182341016329480)
+[19:22:57] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2428624485121517051)
+[19:22:57] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2428624485121517051)
+[19:22:58] [Server thread/INFO]: [Argus] Enabling Argus v0.1
+[19:22:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7-SNAPSHOT;3677-000c238
+[19:22:58] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:22:58] [Server thread/WARN]: [WorldEdit] 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and biome-related functions.
+**
+** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
+**********************************************
+
+[19:22:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:22:58] [Server thread/INFO]: Done (2.437s)! For help, type "help" or "?"
+[19:23:32] [User Authenticator #1/INFO]: UUID of player FaultyRam is 3c0f4da3-40f1-3d0c-8544-e2eb12538465
+[19:23:32] [Server thread/INFO]: FaultyRam[/127.0.0.1:63656] logged in with entity id 138 at ([world]855.5, 14.0, 225.5)
+[19:25:01] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[19:25:01] [Server thread/ERROR]: Could not pass event PlayerQuitEvent to FastAsyncWorldEdit v17.10.16-7a4b7be-936-17.0.19
+java.lang.IllegalArgumentException: bound must be positive
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:352) ~[?:1.8.0_144]
+	at net.argus.engine.utility.ListUtil.getRandom(ListUtil.java:12) ~[?:?]
+	at net.argus.engine.components.spectate.SpectateComponent.stop(SpectateComponent.java:65) ~[?:?]
+	at net.argus.core.mutable.Reducible.lambda$remove$0(Reducible.java:27) ~[?:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:408) ~[Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.argus.core.mutable.Reducible.remove(Reducible.java:27) ~[?:?]
+	at net.argus.core.holder.CollectionHolder.remove(CollectionHolder.java:33) ~[?:?]
+	at net.argus.games.hub.HubArena.lambda$new$1(HubArena.java:30) ~[?:?]
+	at net.argus.engine.components.event.EventComponent.lambda$null$0(EventComponent.java:37) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1249) ~[?:1.8.0_144]
+	at net.argus.engine.components.event.EventComponent.lambda$enable$1(EventComponent.java:37) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:499) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:484) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.PlayerList.disconnect(PlayerList.java:399) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.PlayerConnection.a(PlayerConnection.java:1102) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.NetworkManager.handleDisconnection(NetworkManager.java:321) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.ServerConnection.c(ServerConnection.java:174) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:845) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:406) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [Spigot.jar:git-Spigot-93e20b3-b8f84f3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[19:25:01] [Server thread/INFO]: FaultyRam left the game
