@@ -14,7 +14,6 @@ public class ClientComponent extends Component {
     private final BasicCollectionHolder<Client> clients = new BasicCollectionHolder<>();
 
     public ClientComponent() {
-        setName("Client");
         onEnable(() -> ServerUtil.getOnlinePlayers().forEach(player -> clients.add(new Client(player.getUniqueId(), player.getName(), ClientRank.DONOR))));
         onDisable(() -> clients.forEach(clients::remove));
     }

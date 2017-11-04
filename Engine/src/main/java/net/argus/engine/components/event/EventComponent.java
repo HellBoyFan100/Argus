@@ -21,8 +21,6 @@ public class EventComponent<T extends Event> extends Component implements Listen
     public EventComponent(Class<T> type, EventPriority priority) {
         this.type = type;
         this.priority = priority;
-
-        setName("Event");
     }
 
     public EventComponent onEvent(Consumer<T> listener) {

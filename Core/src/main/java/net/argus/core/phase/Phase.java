@@ -10,7 +10,13 @@ public class Phase extends Component implements Completeable {
 
     private final List<Runnable> completeListeners = new ArrayList<>();
     private boolean complete = false;
-    private String name = "Unnamed";
+
+    public Phase() {
+        onComplete(() -> {
+            System.out.println("Completed " + getName());
+            this.disable();
+        });
+    }
 
     @Override
     public Phase enable() {
@@ -30,7 +36,6 @@ public class Phase extends Component implements Completeable {
             complete = true;
         }
         completeListeners.forEach(Runnable::run);
-        System.out.println(getName() + " has completed.");
     }
 
     @Override
@@ -38,18 +43,8 @@ public class Phase extends Component implements Completeable {
         return complete;
     }
 
-    @Override
-    public String getName() {
-        return name + "Phase";
-    }
-
     public Phase onComplete(Runnable listener) {
         completeListeners.add(listener);
-        return this;
-    }
-
-    public Phase setName(String name) {
-        this.name = name;
         return this;
     }
 

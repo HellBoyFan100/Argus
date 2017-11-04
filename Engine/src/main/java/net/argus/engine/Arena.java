@@ -1,6 +1,8 @@
 package net.argus.engine;
 
-public class Arena extends ParentComponent {
+import net.argus.core.phase.ParentPhase;
+
+public class Arena extends ParentPhase {
 
     @Override
     public String getName() {

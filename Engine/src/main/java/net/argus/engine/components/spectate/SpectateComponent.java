@@ -36,7 +36,6 @@ public class SpectateComponent extends Component implements Listener {
         spectators.onRemoved(player -> player.sendMessage(StringUtil.format(this, Palette.WHITE_PINK,
                 "{1}You're no longer a {2}spectator{1}.")));
 
-        setName("Spectate");
         onEnable(() -> ServerUtil.registerListener(this));
         onDisable(() -> ServerUtil.unregisterListener(this));
     }

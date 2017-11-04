@@ -12,7 +12,6 @@ public class Component implements Enableable, Named {
     private final List<Runnable> enableListenable = new ArrayList<>();
     private final List<Runnable> disableListenable = new ArrayList<>();
     private boolean enabled = false;
-    private String name = "Unnamed";
 
     @Override
     public Component enable() {
@@ -43,7 +42,7 @@ public class Component implements Enableable, Named {
 
     @Override
     public String getName() {
-        return name + "Component";
+        return getClass().getSimpleName();
     }
 
     public Component onEnable(Runnable listener) {
@@ -53,11 +52,6 @@ public class Component implements Enableable, Named {
 
     public Component onDisable(Runnable listener) {
         disableListenable.add(listener);
-        return this;
-    }
-
-    public Component setName(String name) {
-        this.name = name;
         return this;
     }
 

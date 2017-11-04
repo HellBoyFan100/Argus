@@ -34,7 +34,6 @@ public class HubArena extends Arena {
             player.sendMessage(StringUtil.format(Palette.WHITE_PINK, "{1}Hey there, {2}" + player.getName() + "{1}!"));
         }));
 
-        setName("Hub");
         onEnable(() -> {
             clientComponent.enable();
             commandComponent.enable();
