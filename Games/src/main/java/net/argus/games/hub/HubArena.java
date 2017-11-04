@@ -16,10 +16,12 @@ import static net.argus.engine.components.event.EventComponent.listen;
 
 public class HubArena extends Arena {
 
-    public HubArena() {
-        ClientComponent clientComponent = new ClientComponent();
-        CommandComponent commandComponent = new CommandComponent();
+    private final ClientComponent clientComponent;
+    private final CommandComponent commandComponent;
 
+    public HubArena() {
+        addChild(clientComponent = new ClientComponent());
+        addChild(commandComponent = new CommandComponent());
         addChild(listen(PlayerJoinEvent.class, (event -> {
             Player player = event.getPlayer();
             if (player.getName().equals("FaultyRam")) {

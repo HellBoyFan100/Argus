@@ -10,11 +10,6 @@ public class ParentPhase extends Phase implements ParentEnableable {
 
     private final Set<Enableable> children = new HashSet<>();
 
-    public ParentPhase() {
-        onEnable(() -> System.out.println("Enabled " + getName()));
-        onDisable(() -> System.out.println("Disabled " + getName()));
-    }
-
     @Override
     public ParentPhase enable() {
         super.enable();
