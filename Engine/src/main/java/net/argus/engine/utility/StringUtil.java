@@ -18,7 +18,7 @@ public class StringUtil {
         message = message.replaceAll("\\{3\\}", palette.tertiary() + "");
         message = ChatColor.translateAlternateColorCodes('&', message);
 
-        return component == null ? (" " + message) : (ChatColor.DARK_BLUE + "[" + component.getName() + "] " + message);
+        return component == null ? (" " + message) : (ChatColor.BLUE + "[" + component.getName() + "] " + message);
     }
 
 }

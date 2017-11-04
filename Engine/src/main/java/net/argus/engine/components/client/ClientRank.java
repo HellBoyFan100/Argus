@@ -4,9 +4,9 @@ import org.bukkit.ChatColor;
 
 public enum ClientRank {
 
-    DEVELOPER(ChatColor.RED, "DEV"),
-    ADMIN(ChatColor.DARK_GREEN, "Admin"),
-    FRIEND(ChatColor.DARK_AQUA, "Friend"),
+    DEVELOPER(ChatColor.DARK_GREEN, "DEV"),
+    ADMIN(ChatColor.RED, "Admin"),
+    FRIEND(ChatColor.AQUA, "Friend"),
     DONOR(ChatColor.YELLOW, "$$"),
     USER(ChatColor.GRAY, "");
 

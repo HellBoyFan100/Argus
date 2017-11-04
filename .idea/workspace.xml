@@ -7,38 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="481bd228-2b5d-4afc-b400-edd3c2c8bb50" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_7_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_15_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_2_0_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_stream_2_0_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_cache_cache_api_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_6_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_openhft_zero_allocation_hashing_0_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_bean_3_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jodd_jodd_core_3_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_maven_1_16_18_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_redisson_redisson_3_5_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_12_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_12_SNAPSHOT.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit-bukkit-17.04.05-7c49c34-624-11.10.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/commands.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/config.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/de/message.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/de/messages.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/extrablocks.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/message.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/ru/commands.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/FastAsyncWorldEdit/ru/message.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/WorldEdit.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/Argus.jar" afterPath="$PROJECT_DIR$/Servers/Bukkit/plugins/Argus.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/data/villages.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat_old" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/playerdata/3c0f4da3-40f1-3d0c-8544-e2eb12538465.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/playerdata/3c0f4da3-40f1-3d0c-8544-e2eb12538465.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.1.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.2.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.2.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/session.lock" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/session.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/data/villages_nether.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/data/villages_nether.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat_old" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/session.lock" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/session.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/data/villages_end.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/data/villages_end.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat_old" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/session.lock" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/argus-engine.iml" afterPath="$PROJECT_DIR$/Engine/argus-engine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/pom.xml" afterPath="$PROJECT_DIR$/Engine/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/Arena.java" afterPath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/Arena.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/Client.java" afterPath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientComponent.java" afterPath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientComponent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientRank.java" afterPath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientRank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Games/argus-games.iml" afterPath="$PROJECT_DIR$/Games/argus-games.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/StringUtil.java" afterPath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/StringUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java" afterPath="$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/logs/latest.log" afterPath="$PROJECT_DIR$/Servers/Bukkit/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/server.properties" afterPath="$PROJECT_DIR$/Servers/Bukkit/server.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/spigot.yml" afterPath="$PROJECT_DIR$/Servers/Bukkit/spigot.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/usercache.json" afterPath="$PROJECT_DIR$/Servers/Bukkit/usercache.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/stats/3c0f4da3-40f1-3d0c-8544-e2eb12538465.json" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/stats/3c0f4da3-40f1-3d0c-8544-e2eb12538465.json" />
     </list>
     <ignored path="$PROJECT_DIR$/Core/target/" />
     <ignored path="$PROJECT_DIR$/Engine/target/" />
@@ -55,72 +67,9 @@
       <file leaf-file-name="ClientComponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HubArena.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Games/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state relative-caret-position="102">
+              <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -129,12 +78,10 @@
         <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientRank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,8 +90,72 @@
       <file leaf-file-name="SpectateComponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/spectate/SpectateComponent.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionHolder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/holder/CollectionHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <element signature="e#1069#1070#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reducible.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/mutable/Reducible.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HubArena.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="27" column="114" lean-forward="false" selection-start-line="27" selection-start-column="114" selection-end-line="27" selection-end-column="114" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Palette.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/Palette.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticleColor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/ParticleColor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/StringUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -153,18 +164,8 @@
       <file leaf-file-name="EventComponent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/event/EventComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DisableComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/disable/DisableComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -217,7 +218,6 @@
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/Style.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/ServerUtil.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/Palette.java" />
-        <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/StringUtil.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/disable/DisableComponent.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/BlockUtil.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/redisson/RedissonKey.java" />
@@ -239,10 +239,11 @@
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/event/EventComponent.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/Arena.java" />
         <option value="$PROJECT_DIR$/Engine/pom.xml" />
-        <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientRank.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/Client.java" />
-        <option value="$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java" />
+        <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/StringUtil.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientComponent.java" />
+        <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientRank.java" />
+        <option value="$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java" />
       </list>
     </option>
   </component>
@@ -437,6 +438,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Argus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+              <item name="color" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Argus" type="b2602c69:ProjectViewProjectNode" />
@@ -768,6 +779,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -791,7 +803,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -863,16 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/mutable/Reducible.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="e#309#339#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/mutable/Mutable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -904,39 +905,6 @@
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/holder/CollectionHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
-          <folding>
-            <element signature="e#454#455#0" expanded="false" />
-            <element signature="e#505#506#0" expanded="false" />
-            <element signature="e#561#562#0" expanded="false" />
-            <element signature="e#620#621#0" expanded="false" />
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#729#730#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#844#845#0" expanded="false" />
-            <element signature="e#896#897#0" expanded="false" />
-            <element signature="e#951#952#0" expanded="false" />
-            <element signature="e#1011#1012#0" expanded="false" />
-            <element signature="e#1069#1070#0" expanded="false" />
-            <element signature="e#1135#1136#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1257#1258#0" expanded="false" />
-            <element signature="e#1286#1287#0" expanded="false" />
-            <element signature="e#1501#1502#0" expanded="false" />
-            <element signature="e#1550#1551#0" expanded="false" />
-            <element signature="e#1592#1593#0" expanded="false" />
-            <element signature="e#1629#1630#0" expanded="false" />
-            <element signature="e#1682#1683#0" expanded="false" />
-            <element signature="e#1736#1737#0" expanded="false" />
-            <element signature="e#1776#1777#0" expanded="false" />
-            <element signature="e#1819#1820#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1034,19 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Games/src/main/java/net/argus/games/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/Arena.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1092,50 +1047,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/Palette.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/ParticleColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/DumbComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/spectate/SpectateComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/event/EventComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1174,23 +1089,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientRank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#551#552#0" expanded="true" />
@@ -1202,20 +1104,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Games/src/main/java/net/argus/games/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/event/EventComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/holder/CollectionHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/mutable/Reducible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/Palette.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/ParticleColor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/spectate/SpectateComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/client/ClientComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="27" column="114" lean-forward="false" selection-start-line="27" selection-start-column="114" selection-end-line="27" selection-end-column="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
