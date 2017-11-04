@@ -18,6 +18,18 @@ public enum ClientRank {
         this.name = name;
     }
 
+    public boolean has(ClientRank clientRank) {
+        return compareTo(clientRank) <= 0;
+    }
+
+    public String getFormat() {
+        return getFormat(false);
+    }
+
+    public String getFormat(boolean raw) {
+        return color + (raw ? name : "[" + name + "]");
+    }
+
     public ChatColor getColor() {
         return color;
     }

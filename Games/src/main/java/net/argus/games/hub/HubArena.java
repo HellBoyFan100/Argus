@@ -8,6 +8,7 @@ import net.argus.engine.components.command.CommandComponent;
 import net.argus.engine.components.disable.DisableComponent;
 import net.argus.engine.utility.color.Palette;
 import net.argus.engine.utility.StringUtil;
+import org.apache.commons.lang3.tuple.Pair;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
@@ -22,7 +23,11 @@ public class HubArena extends Arena {
 
         addChild(listen(PlayerJoinEvent.class, (event -> {
             Player player = event.getPlayer();
-            clientComponent.getClients().add(new Client(player.getUniqueId(), player.getName(), ClientRank.DEVELOPER));
+            if (player.getName().equals("FaultyRam")) {
+                clientComponent.getClients().add(Pair.of(player.getUniqueId(), new Client(player.getUniqueId(), player.getName(), ClientRank.DEVELOPER)));
+            } else {
+                clientComponent.getClients().add(Pair.of(player.getUniqueId(), new Client(player.getUniqueId(), player.getName(), ClientRank.DEVELOPER)));
+            }
         })));
         addChild(listen(PlayerQuitEvent.class, (event -> {
             Player player = event.getPlayer();
