@@ -3,15 +3,25 @@ package net.argus.core.holder;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Spliterator;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
-public interface CollectionHolder<T> extends Collection<T>, MutableHolder<T> {
+public interface CollectionHolder<T> extends MutableHolder<T>, Collection<T> {
 
     Collection<T> getContents();
     List<Consumer<T>> getAddListeners();
-    List<Consumer<T>> getAddedListeners();
     List<Consumer<T>> getRemoveListeners();
-    List<Consumer<T>> getRemovedListeners();
+
+    @Override
+    default Stream<T> stream() {
+        return MutableHolder.super.stream();
+    }
+
+    @Override
+    default Stream<T> parallelStream() {
+        return MutableHolder.super.parallelStream();
+    }
 
     @Override
     default boolean addSilently(T element) {
@@ -67,6 +77,13 @@ public interface CollectionHolder<T> extends Collection<T>, MutableHolder<T> {
     default int size() {
         return getContents().size();
     }
+
+    /*
+    @Override
+    default Spliterator<T> spliterator() {
+        return MutableHolder.super.spliterator();
+    }
+    */
 
     @Override
     default boolean isEmpty() {

@@ -10,16 +10,6 @@ public interface Augmentable<T> {
     List<Consumer<T>> getAddListeners();
     List<Consumer<T>> getAddedListeners();
 
-    default Augmentable<T> onAdd(Consumer<T> listener) {
-        getAddListeners().add(listener);
-        return this;
-    }
-
-    default Augmentable<T> onAdded(Consumer<T> listener) {
-        getAddedListeners().add(listener);
-        return this;
-    }
-
     boolean addSilently(T element);
 
     default boolean add(T element) {
@@ -31,19 +21,27 @@ public interface Augmentable<T> {
 
     default boolean add(Iterable<? extends T> elements) {
         boolean added = false;
-        for (T element : elements) {
+        for (T element : elements)
             added = added | add(element);
-        }
         return added;
     }
 
     @SuppressWarnings("unchecked")
     default boolean add(T... elements) {
         boolean added = false;
-        for (T element : elements) {
+        for (T element : elements)
             added = added | add(element);
-        }
         return added;
+    }
+
+    default Augmentable<T> onAdd(Consumer<T> listener) {
+        getAddListeners().add(listener);
+        return this;
+    }
+
+    default Augmentable<T> onAdded(Consumer<T> listener) {
+        getAddedListeners().add(listener);
+        return this;
     }
 
 }

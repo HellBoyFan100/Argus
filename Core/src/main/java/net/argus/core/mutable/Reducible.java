@@ -10,16 +10,6 @@ public interface Reducible<T> {
     List<Consumer<T>> getRemoveListeners();
     List<Consumer<T>> getRemovedListeners();
 
-    default Reducible<T> onRemove(Consumer<T> listener) {
-        getRemoveListeners().add(listener);
-        return this;
-    }
-
-    default Reducible<T> onRemoved(Consumer<T> listener) {
-        getRemovedListeners().add(listener);
-        return this;
-    }
-
     boolean removeSilently(T element);
 
     @SuppressWarnings("unchecked")
@@ -32,18 +22,27 @@ public interface Reducible<T> {
 
     default boolean remove(Iterable<Object> elements) {
         boolean removed = false;
-        for (Object element : elements) {
+        for (Object element : elements)
             removed = removed | remove(element);
-        }
         return removed;
     }
 
     default boolean remove(Object[] elements) {
         boolean removed = false;
-        for (Object element : elements) {
+        for (Object element : elements)
             removed = removed | remove(element);
-        }
         return removed;
+    }
+
+
+    default Reducible<T> onRemove(Consumer<T> listener) {
+        getRemoveListeners().add(listener);
+        return this;
+    }
+
+    default Reducible<T> onRemoved(Consumer<T> listener) {
+        getRemovedListeners().add(listener);
+        return this;
     }
 
 }
