@@ -9,45 +9,30 @@ import java.util.List;
 
 public class Component implements Enableable, Named {
 
-    private boolean enabled = false;
-    private String name = "Unnamed Component";
-
     private final List<Runnable> enableListenable = new ArrayList<>();
     private final List<Runnable> disableListenable = new ArrayList<>();
+    private boolean enabled = false;
+    private String name = "Unnamed";
 
     @Override
     public Component enable() {
-        if (enabled) return this;
-
-        enableListenable.forEach(Runnable::run);
+        if (enabled) {
+            return this;
+        }
         enabled = true;
+        enableListenable.forEach(Runnable::run);
+        System.out.println(getName() + " has been enabled.");
         return this;
     }
 
     @Override
     public Component disable() {
-        if (!enabled) return this;
-
-        disableListenable.forEach(Runnable::run);
+        if (!enabled) {
+            return this;
+        }
         enabled = false;
-        return this;
-    }
-
-    protected Component onEnable(Runnable... listeners) {
-        if (listeners.length > 1) {
-            enableListenable.addAll(Arrays.asList(listeners));
-        } else {
-            enableListenable.add(listeners[0]);
-        }
-        return this;
-    }
-
-    protected Component onDisable(Runnable... listeners) {
-        if (listeners.length > 1) {
-            disableListenable.addAll(Arrays.asList(listeners));
-        } else {
-            disableListenable.add(listeners[0]);
-        }
+        disableListenable.forEach(Runnable::run);
+        System.out.println(getName() + " has been disabled");
         return this;
     }
 
@@ -58,11 +43,22 @@ public class Component implements Enableable, Named {
 
     @Override
     public String getName() {
-        return name;
+        return name + "Component";
     }
 
-    protected void setName(String name) {
+    public Component onEnable(Runnable listener) {
+        enableListenable.add(listener);
+        return this;
+    }
+
+    public Component onDisable(Runnable listener) {
+        disableListenable.add(listener);
+        return this;
+    }
+
+    public Component setName(String name) {
         this.name = name;
+        return this;
     }
 
 }
