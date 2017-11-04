@@ -15,6 +15,11 @@ public class Client {
         this.rank = rank;
     }
 
+    @Override
+    public String toString() {
+        return "client[uuid=" + UUID.toString() + ", name=" + name + ", rank=" + rank.getName().toUpperCase() + "]";
+    }
+
     public UUID getUUID() {
         return UUID;
     }
