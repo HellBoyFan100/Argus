@@ -29,7 +29,6 @@ public class ClientComponent extends Component {
         clients.onRemoved(client -> {
             System.out.println("Removed " + client.getName() + " from clients. " + client.toString());
         });
-        onDisable(() -> clients.forEach(clients::remove));
     }
 
     public Client getClient(UUID uuid) {

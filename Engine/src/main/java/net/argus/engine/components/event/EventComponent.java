@@ -21,6 +21,15 @@ public class EventComponent<T extends Event> extends Component implements Listen
     public EventComponent(Class<T> type, EventPriority priority) {
         this.type = type;
         this.priority = priority;
+
+        onEnable(() -> {
+            Bukkit.getPluginManager().registerEvent(type, this, priority, (listener, event) -> {
+                if (event != null) {
+                    eventListeners.forEach(tConsumer -> tConsumer.accept((T) event));
+                }
+            }, Bukkit.getPluginManager().getPlugins()[0]);
+        });
+        onDisable(() -> ServerUtil.registerListener(this));
     }
 
     public EventComponent onEvent(Consumer<T> listener) {
@@ -28,6 +37,7 @@ public class EventComponent<T extends Event> extends Component implements Listen
         return this;
     }
 
+    /*
     @Override
     public EventComponent<T> enable() {
         Bukkit.getPluginManager().registerEvent(type, this, priority, (listener, event) -> {
@@ -45,6 +55,7 @@ public class EventComponent<T extends Event> extends Component implements Listen
         super.disable();
         return this;
     }
+    */
 
     public static <T extends Event> EventComponent<T> listen(Class<T> type) {
         return listen(type, null, null);

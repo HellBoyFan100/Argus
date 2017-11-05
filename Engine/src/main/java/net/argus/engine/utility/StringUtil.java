@@ -21,4 +21,5 @@ public class StringUtil {
         return component == null ? (" " + message) : (ChatColor.BLUE + "[" + component.getName() + "] " + message);
     }
 
+
 }
