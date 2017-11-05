@@ -7,40 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="481bd228-2b5d-4afc-b400-edd3c2c8bb50" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/target/classes/net/argus/core/enableable/ParentEnableable.class" afterPath="$PROJECT_DIR$/Core/target/classes/net/argus/core/enableable/ParentEnableable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/target/classes/net/argus/core/phase/ParentPhase.class" afterPath="$PROJECT_DIR$/Core/target/classes/net/argus/core/phase/ParentPhase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Games/target/classes/net/argus/games/hub/HubArena.class" afterPath="$PROJECT_DIR$/Games/target/classes/net/argus/games/hub/HubArena.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/plugins/Argus.jar" afterPath="$PROJECT_DIR$/Servers/Bukkit/plugins/Argus.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/data/villages.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat_old" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/level.dat_old" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/playerdata/3c0f4da3-40f1-3d0c-8544-e2eb12538465.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/playerdata/3c0f4da3-40f1-3d0c-8544-e2eb12538465.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.1.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.1.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.2.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/region/r.2.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/session.lock" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/DIM-1/region/r.0.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/data/villages_nether.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/data/villages_nether.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat_old" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_nether/session.lock" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_nether/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.0.mca" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/DIM1/region/r.0.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/data/villages_end.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/data/villages_end.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat_old" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/session.lock" afterPath="$PROJECT_DIR$/Servers/Bukkit/world_the_end/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/main/java/net/argus/core/enableable/ParentEnableable.java" afterPath="$PROJECT_DIR$/Core/src/main/java/net/argus/core/enableable/ParentEnableable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/src/main/java/net/argus/core/phase/ParentPhase.java" afterPath="$PROJECT_DIR$/Core/src/main/java/net/argus/core/phase/ParentPhase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java" afterPath="$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java" afterPath="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/logs/latest.log" afterPath="$PROJECT_DIR$/Servers/Bukkit/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/server.properties" afterPath="$PROJECT_DIR$/Servers/Bukkit/server.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/spigot.yml" afterPath="$PROJECT_DIR$/Servers/Bukkit/spigot.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/usercache.json" afterPath="$PROJECT_DIR$/Servers/Bukkit/usercache.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Servers/Bukkit/world/stats/3c0f4da3-40f1-3d0c-8544-e2eb12538465.json" afterPath="$PROJECT_DIR$/Servers/Bukkit/world/stats/3c0f4da3-40f1-3d0c-8544-e2eb12538465.json" />
     </list>
@@ -68,11 +49,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HubArena.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommandComponent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/component/Component.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HubArena.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="305">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,7 +152,6 @@
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/BlockUtil.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/redisson/RedissonKey.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/redisson/RedissonComponent.java" />
-        <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/Palette.java" />
         <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/utility/color/ParticleColor.java" />
         <option value="$PROJECT_DIR$/Core/src/main/java/net/argus/core/completable/Completeable.java" />
@@ -173,6 +173,7 @@
         <option value="$PROJECT_DIR$/Core/src/main/java/net/argus/core/phase/ParentPhase.java" />
         <option value="$PROJECT_DIR$/Core/src/main/java/net/argus/core/enableable/ParentEnableable.java" />
         <option value="$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java" />
+        <option value="$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java" />
       </list>
     </option>
   </component>
@@ -644,12 +645,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25626305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25626305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -810,17 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/component/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1130#1131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/Arena.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -844,8 +834,8 @@
         <state relative-caret-position="221">
           <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,16 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Engine/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -913,12 +893,12 @@
         <state relative-caret-position="255">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="false" />
+            <element signature="e#551#552#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -928,8 +908,8 @@
         <state relative-caret-position="204">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -947,7 +927,7 @@
         <state relative-caret-position="202">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1047,11 +1027,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Games/src/main/java/net/argus/games/hub/HubArena.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="305">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/src/main/java/net/argus/core/component/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/main/java/net/argus/engine/components/command/CommandComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

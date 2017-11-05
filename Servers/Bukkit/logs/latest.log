@@ -33,3 +33,18 @@
 [18:44:59] [Server thread/INFO]: Adding FaultyRam to clients.
 [18:44:59] [Server thread/INFO]: Added FaultyRam to clients. client[uuid=3c0f4da3-40f1-3d0c-8544-e2eb12538465, name=FaultyRam, rank=DEV]
 [18:44:59] [Server thread/INFO]: FaultyRam[/127.0.0.1:59968] logged in with entity id 141 at ([world]834.0490633283763, 4.0, 250.35531754403334)
+[18:52:30] [User Authenticator #2/INFO]: UUID of player spyrostaff is 834e68db-7e47-3087-8680-94db7ad01784
+[18:52:30] [Server thread/INFO]: Adding spyrostaff to clients.
+[18:52:30] [Server thread/INFO]: Added spyrostaff to clients. client[uuid=834e68db-7e47-3087-8680-94db7ad01784, name=spyrostaff, rank=FRIEND]
+[18:52:30] [Server thread/INFO]: spyrostaff[/127.0.0.1:61967] logged in with entity id 174 at ([world]840.5, 25.0, 233.5)
+[18:52:40] [Async Chat Thread - #0/INFO]: <FaultyRam> hey
+[18:52:42] [Async Chat Thread - #0/INFO]: <spyrostaff> hey
+[18:52:48] [Async Chat Thread - #0/INFO]: <spyrostaff> .
+[18:53:20] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[18:53:20] [Server thread/INFO]: Removing FaultyRam from clients.
+[18:53:20] [Server thread/INFO]: Removed FaultyRam from clients. client[uuid=3c0f4da3-40f1-3d0c-8544-e2eb12538465, name=FaultyRam, rank=DEV]
+[18:53:20] [Server thread/INFO]: FaultyRam left the game
+[18:53:25] [Server thread/INFO]: spyrostaff lost connection: Disconnected
+[18:53:25] [Server thread/INFO]: Removing spyrostaff from clients.
+[18:53:25] [Server thread/INFO]: Removed spyrostaff from clients. client[uuid=834e68db-7e47-3087-8680-94db7ad01784, name=spyrostaff, rank=FRIEND]
+[18:53:25] [Server thread/INFO]: spyrostaff left the game
