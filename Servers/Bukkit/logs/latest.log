@@ -1,46 +1,56 @@
-[19:02:03] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[19:02:03] [Server thread/INFO]: Loading properties
-[19:02:03] [Server thread/INFO]: Default game type: SURVIVAL
-[19:02:03] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-5695bca-53fccdf (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
-[19:02:03] [Server thread/INFO]: Debug logging is disabled
-[19:02:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:02:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:02:03] [Server thread/INFO]: Generating keypair
-[19:02:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:02:03] [Server thread/INFO]: Using default channel type
-[19:02:04] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[19:02:04] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-[19:02:04] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
-[19:02:04] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-[19:02:04] [Server thread/INFO]: [Argus] Loading Argus v0.1
-[19:02:04] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[19:02:04] [Server thread/INFO]: Preparing level "world"
-[19:02:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2048358471742304052)
-[19:02:05] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2428624485121517051)
-[19:02:06] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2428624485121517051)
-[19:02:06] [Server thread/INFO]: [Argus] Enabling Argus v0.1
-[19:02:06] [Server thread/INFO]: Server has been enabled.
-[19:02:06] [Server thread/INFO]: PacketComponent has been enabled.
-[19:02:06] [Server thread/INFO]: EventComponent has been enabled.
-[19:02:06] [Server thread/INFO]: EventComponent has been enabled.
-[19:02:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:02:06] [redisson-3-2/INFO]: HubArena has been enabled.
-[19:02:06] [Server thread/INFO]: Done (1.942s)! For help, type "help" or "?"
-[19:02:06] [redisson-3-2/INFO]: EventComponent has been enabled.
-[19:02:06] [redisson-3-2/INFO]: EventComponent has been enabled.
-[19:02:06] [redisson-3-2/INFO]: EventComponent has been enabled.
-[19:02:06] [redisson-3-2/INFO]: CommandComponent has been enabled.
-[19:02:06] [redisson-3-2/INFO]: ClientComponent has been enabled.
-[19:02:06] [redisson-3-2/INFO]: EventComponent has been enabled.
-[19:02:11] [User Authenticator #1/INFO]: UUID of player FaultyRam is a91d2290-d558-47ef-9e16-57796e075153
-[19:02:12] [Server thread/INFO]: Adding FaultyRam to clients.
-[19:02:12] [Server thread/INFO]: Added FaultyRam to clients. client[uuid=a91d2290-d558-47ef-9e16-57796e075153, name=FaultyRam, rank=DEV]
-[19:02:12] [Server thread/INFO]: FaultyRam[/127.0.0.1:55348] logged in with entity id 34 at ([world]-9.5, 192.0, -3.5)
-[19:02:19] [Server thread/INFO]: FaultyRam issued server command: /gamemode c
-[19:02:21] [Server thread/INFO]: FaultyRam issued server command: /gamemode 1
-[19:02:22] [Server thread/INFO]: FaultyRam issued server command: /gamemode1
-[19:02:27] [Server thread/INFO]: Opped FaultyRam
-[19:02:32] [Server thread/INFO]: FaultyRam issued server command: /gamemode 1
-[19:02:32] [Server thread/INFO]: [FaultyRam: Set own game mode to Creative Mode]
-[19:02:54] [Server thread/INFO]: De-opped FaultyRam
-[19:03:16] [Server thread/INFO]: Opped FaultyRam
+[21:47:30] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[21:47:30] [Server thread/INFO]: Loading properties
+[21:47:30] [Server thread/INFO]: Default game type: SURVIVAL
+[21:47:30] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-5695bca-53fccdf (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[21:47:30] [Server thread/INFO]: Debug logging is disabled
+[21:47:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:47:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:47:30] [Server thread/INFO]: Generating keypair
+[21:47:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:47:31] [Server thread/INFO]: Using default channel type
+[21:47:31] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:47:31] [Server thread/WARN]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[21:47:31] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[21:47:31] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[21:47:31] [Server thread/INFO]: [Argus] Loading Argus v0.1
+[21:47:31] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:47:31] [Server thread/INFO]: Preparing level "world"
+[21:47:32] [Server thread/INFO]: Preparing start region for level 0 (Seed: -2048358471742304052)
+[21:47:32] [Server thread/INFO]: Preparing start region for level 1 (Seed: -2428624485121517051)
+[21:47:33] [Server thread/INFO]: Preparing start region for level 2 (Seed: -2428624485121517051)
+[21:47:33] [Server thread/INFO]: [Argus] Enabling Argus v0.1
+[21:47:33] [Server thread/INFO]: Server has been enabled.
+[21:47:33] [Server thread/INFO]: PacketComponent has been enabled.
+[21:47:33] [Server thread/INFO]: EventComponent has been enabled.
+[21:47:33] [Server thread/INFO]: EventComponent has been enabled.
+[21:47:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:47:33] [redisson-3-2/INFO]: HubArena has been enabled.
+[21:47:33] [redisson-3-2/INFO]: EventComponent has been enabled.
+[21:47:33] [redisson-3-2/INFO]: EventComponent has been enabled.
+[21:47:33] [Server thread/INFO]: Done (1.816s)! For help, type "help" or "?"
+[21:47:42] [User Authenticator #1/INFO]: UUID of player FaultyRam is a91d2290-d558-47ef-9e16-57796e075153
+[21:47:42] [Server thread/INFO]: FaultyRam[/127.0.0.1:58042] logged in with entity id 34 at ([world]0.5, 158.0, 0.5)
+[21:47:50] [Server thread/INFO]: FaultyRam issued server command: /gamemode s
+[21:47:50] [Server thread/INFO]: [FaultyRam: Set own game mode to Survival Mode]
+[21:47:55] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[21:47:55] [Server thread/INFO]: FaultyRam left the game
+[21:47:57] [User Authenticator #2/INFO]: UUID of player FaultyRam is a91d2290-d558-47ef-9e16-57796e075153
+[21:47:57] [Server thread/INFO]: FaultyRam[/127.0.0.1:58053] logged in with entity id 38 at ([world]0.5, 158.0, 0.5)
+[21:48:00] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[21:48:01] [Server thread/INFO]: FaultyRam left the game
+[21:48:02] [User Authenticator #3/INFO]: UUID of player FaultyRam is a91d2290-d558-47ef-9e16-57796e075153
+[21:48:02] [Server thread/INFO]: FaultyRam[/127.0.0.1:58062] logged in with entity id 39 at ([world]0.5, 158.0, 0.5)
+[21:48:05] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[21:48:05] [Server thread/INFO]: FaultyRam left the game
+[21:48:07] [User Authenticator #4/INFO]: UUID of player FaultyRam is a91d2290-d558-47ef-9e16-57796e075153
+[21:48:07] [Server thread/INFO]: FaultyRam[/127.0.0.1:58071] logged in with entity id 52 at ([world]0.5, 158.0, 0.5)
+[21:48:10] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[21:48:10] [Server thread/INFO]: FaultyRam left the game
+[21:48:12] [User Authenticator #5/INFO]: UUID of player FaultyRam is a91d2290-d558-47ef-9e16-57796e075153
+[21:48:12] [Server thread/INFO]: FaultyRam[/127.0.0.1:58079] logged in with entity id 53 at ([world]0.5, 158.0, 0.5)
+[21:48:15] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[21:48:15] [Server thread/INFO]: FaultyRam left the game
+[21:48:17] [User Authenticator #6/INFO]: UUID of player FaultyRam is a91d2290-d558-47ef-9e16-57796e075153
+[21:48:17] [Server thread/INFO]: FaultyRam[/127.0.0.1:58086] logged in with entity id 54 at ([world]0.5, 158.0, 0.5)
+[21:48:26] [Server thread/INFO]: FaultyRam lost connection: Disconnected
+[21:48:26] [Server thread/INFO]: FaultyRam left the game

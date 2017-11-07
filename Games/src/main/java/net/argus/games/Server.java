@@ -37,7 +37,7 @@ public class Server extends ParentComponent implements Listener {
                 if (arena != null) {
                     return;
                 }
-                arena = new HubArena();
+                arena = new HubArena(redissonClient);
                 arena.enable();
             });
         });
