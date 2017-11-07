@@ -1,21 +1,29 @@
 package net.argus.games;
 
-import net.argus.engine.Arena;
-import net.argus.games.hub.HubArena;
+import net.argus.games.hub.HubArenaPacket;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.redisson.Redisson;
+import org.redisson.api.RedissonClient;
 
 public class Main extends JavaPlugin {
 
-    private Arena arena = new HubArena();
+    private final RedissonClient redissonClient;
+    private final Server server;
+
+    public Main() {
+        redissonClient = Redisson.create();
+        server = new Server(redissonClient, "Server." + getServer().getPort());
+    }
 
     @Override
     public void onEnable() {
-        arena.enable();
+        server.enable();
+        server.getPacketComponent().send(new HubArenaPacket());
     }
 
     @Override
     public void onDisable() {
-        arena.disable();
+        server.disable();
     }
 
 }

@@ -16,6 +16,10 @@ public class PacketComponent extends Component {
     private final Predicate<Object> packets;
     private int listener;
 
+    public PacketComponent(RedissonClient redissonClient, String channel) {
+        this(redissonClient, channel, packets -> true);
+    }
+
     public PacketComponent(RedissonClient redissonClient, String channel, Predicate<Object> packets) {
         topic = redissonClient.getTopic(channel);
         this.packets = packets;

@@ -27,7 +27,7 @@ public class HubArena extends Arena {
 
         addChild(clientComponent = new ClientComponent());
         addChild(commandComponent = new CommandComponent());
-        addChild(listen(PlayerJoinEvent.class, (event -> {
+        addChild(listen(PlayerJoinEvent.class, event -> {
             Player player = event.getPlayer();
             if (player.getName().equals("FaultyRam")) {
                 clientComponent.getClients().add(new Client(player.getUniqueId(), player.getName(), ClientRank.DEVELOPER));
@@ -35,26 +35,17 @@ public class HubArena extends Arena {
                 clientComponent.getClients().add(new Client(player.getUniqueId(), player.getName(), ClientRank.FRIEND));
             }
             players.add(player);
-        })));
-        addChild(listen(PlayerQuitEvent.class, (event -> {
+        }));
+        addChild(listen(PlayerQuitEvent.class, event -> {
             Player player = event.getPlayer();
             clientComponent.getClients().remove(clientComponent.getClient(player.getUniqueId()));
             players.remove(player);
-        })));
+        }));
         addChild(DisableComponent.dropItem(player -> true), DisableComponent.blockBreak());
 
         commandComponent.onPlayerCommand(command -> command.contains("join"), ((player, args) -> {
             player.sendMessage(StringUtil.format(Palette.WHITE_PINK, "{1}Hey there, {2}" + player.getName() + "{1}! You may now speak."));
         }));
-
-        onEnable(() -> {
-            clientComponent.enable();
-            commandComponent.enable();
-        });
-        onDisable(() -> {
-            clientComponent.enable();
-            commandComponent.disable();
-        });
     }
 
 
