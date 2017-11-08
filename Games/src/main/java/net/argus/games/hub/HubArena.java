@@ -3,6 +3,7 @@ package net.argus.games.hub;
 import net.argus.core.holder.BasicCollectionHolder;
 import net.argus.core.holder.MutableHolder;
 import net.argus.engine.Arena;
+import net.argus.engine.components.disable.*;
 import net.argus.engine.utility.SpawnUtil;
 import net.argus.engine.utility.item.ItemBuilder;
 import org.bukkit.ChatColor;
@@ -36,13 +37,27 @@ public class HubArena extends Arena {
         addChild(listen(PlayerQuitEvent.class, event -> {
             players.remove(event.getPlayer());
         }));
-        players.onAdd((player) -> {
-            new SpawnUtil(spawns.readAll());
+        players.onAdd(new SpawnUtil(spawns.readAll()));
+        players.onAdd(player -> {
+            player.setHealth(20);
+            player.setFoodLevel(20);
+            player.setFireTicks(0);
             player.setGameMode(GameMode.ADVENTURE);
             player.getInventory().clear();
             player.getInventory().setItem(0, gameSelector);
             player.getInventory().setItem(8, collectibles);
         });
+
+        addChild(
+                new PvEDisabledComponent(),
+                new BlockBreakDisabledComponent(),
+                new BlockPlaceDisabledComponent(),
+                new PvPDisabledComponent(),
+                new HungerDisabledComponent(),
+                new PickUpDisabledComponent(),
+                new DropItemDisabledComponent(),
+                new BowShootDisabledComponent()
+        );
     }
 
 
