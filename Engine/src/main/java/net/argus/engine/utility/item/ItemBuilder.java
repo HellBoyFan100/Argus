@@ -39,7 +39,6 @@ public class ItemBuilder extends Builder<ItemBuilder, ItemMeta> {
         super(item);
     }
     
-    
     public BannerBuilder asBanner() {
         return new BannerBuilder(this);
     }
