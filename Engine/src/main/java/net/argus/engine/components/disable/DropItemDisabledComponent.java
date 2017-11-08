@@ -36,7 +36,6 @@ public class DropItemDisabledComponent extends Component implements Listener {
     public void onItemDrop(PlayerDropItemEvent event) {
         if (players.test(event.getPlayer()) && filter.test(event.getItemDrop())) {
             event.setCancelled(true);
-            event.getPlayer().sendMessage("You can't do that!");
         }
     }
 

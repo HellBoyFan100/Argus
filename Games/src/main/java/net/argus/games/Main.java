@@ -2,9 +2,7 @@ package net.argus.games;
 
 import net.argus.games.hub.HubArenaPacket;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.util.Vector;
 import org.redisson.Redisson;
-import org.redisson.api.RList;
 import org.redisson.api.RedissonClient;
 
 public class Main extends JavaPlugin {
@@ -15,9 +13,8 @@ public class Main extends JavaPlugin {
     public Main() {
         redissonClient = Redisson.create();
         server = new Server(redissonClient, "Server." + getServer().getPort());
-        RList<Vector> list = redissonClient.getList("hub-spawns");
-        list.clear();
-        list.add(new Vector(0.5, 158, 0.5));
+        //RList<Vector> list = redissonClient.getList("hub-spawns");
+        //list.add(new Vector(0.5, 158, 0.5));
     }
 
     @Override

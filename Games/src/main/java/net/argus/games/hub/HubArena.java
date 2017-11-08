@@ -3,6 +3,8 @@ package net.argus.games.hub;
 import net.argus.core.holder.BasicCollectionHolder;
 import net.argus.core.holder.MutableHolder;
 import net.argus.engine.Arena;
+import net.argus.engine.components.client.Client;
+import net.argus.engine.components.client.ClientComponent;
 import net.argus.engine.components.disable.*;
 import net.argus.engine.utility.SpawnUtil;
 import net.argus.engine.utility.item.ItemBuilder;
@@ -25,17 +27,29 @@ public class HubArena extends Arena {
     private final ItemStack gameSelector = new ItemBuilder(Material.COMPASS).name(ChatColor.LIGHT_PURPLE + "Game Selector").flags(ItemFlag.HIDE_ATTRIBUTES).build();
     private final ItemStack collectibles = new ItemBuilder(Material.TOTEM).name(ChatColor.LIGHT_PURPLE + "Collectibles").flags(ItemFlag.HIDE_ATTRIBUTES).build();
 
+    private final ClientComponent clientComponent;
     private final MutableHolder<Player> players;
 
     public HubArena(RedissonClient redissonClient) {
         RList<Vector> spawns = redissonClient.getList("hub-spawns");
 
+        addChild(clientComponent = new ClientComponent(redissonClient));
         players = new BasicCollectionHolder<>();
         addChild(listen(PlayerJoinEvent.class, event -> {
-            players.add(event.getPlayer());
+            Player player = event.getPlayer();
+            players.add(player);
+
+            Client client = clientComponent.getClientFromList(player.getUniqueId());
+            if (client == null) {
+                clientComponent.getClients().add(clientComponent.createClient(player.getUniqueId(), player.getName()));
+            } else {
+                clientComponent.getClients().add(client);
+            }
         }));
         addChild(listen(PlayerQuitEvent.class, event -> {
-            players.remove(event.getPlayer());
+            Player player = event.getPlayer();
+            players.remove(player);
+            clientComponent.getClients().remove(clientComponent.saveClient(player.getUniqueId()));
         }));
         players.onAdd(new SpawnUtil(spawns.readAll()));
         players.onAdd(player -> {

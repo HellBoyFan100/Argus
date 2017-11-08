@@ -4,10 +4,12 @@ import java.util.UUID;
 
 public class Client {
 
-    private final UUID UUID;
-    private final String name;
+    private UUID UUID;
+    private String name;
 
     private ClientRank rank;
+
+    public Client() {}
 
     public Client(UUID UUID, String name, ClientRank rank) {
         this.UUID = UUID;
